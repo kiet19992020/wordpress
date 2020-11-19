@@ -1,5 +1,5 @@
 <?php
-define( 'WP_CACHE', true ); // Added by WP Rocket
+define( 'WP_CACHE', false ); // Added by WP Rocket
 
 /**
  * The base configuration for WordPress
@@ -24,13 +24,14 @@ define( 'WP_CACHE', true ); // Added by WP Rocket
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpress' );
 
+
 /** MySQL database username */
 define( 'DB_USER', 'wordpress' );
 define( 'WP_MAX_MEMORY_LIMIT', '512M' );
 /** MySQL database password */
 define( 'DB_PASSWORD', '' );
 
-/** MySQL hostname */
+/** MySQL hosname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
